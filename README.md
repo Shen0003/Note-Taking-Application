@@ -7,7 +7,7 @@
 
 > [!IMPORTANT]
 > Please note that this application is still under closed testing phase, so it is now only **VISIBLE** to the **APPROVED** closed tester only on the **Google Play Store**.
-> Any closed tester are welcome to join the test by emailing to yongshen8@gmail.com for more information.
+> Any closed tester are welcome to join the test by emailing to yongshen8@gmail.com(personal) or goldenringstu@gmail.com(working) for more information.
 
 ## Features (Shown in GIF below)
 ### (I) Note Management
