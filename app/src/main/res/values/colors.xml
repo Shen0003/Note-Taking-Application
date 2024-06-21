@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#101010</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="brown">#3C2308</color>
+    <color name="green">#68D856</color>
+    <!--     t0 COLORS                        -->
+    <color name="orange">#F4954D</color>
+    <color name="gray">#2E2E2E</color>
+    <!--     t1 COLORS                        -->
+    <color name="t1.0">#EEEDEB</color>
+    <color name="t1.1">#E0CCBE</color>
+    <color name="t1.2">#747264</color>
+    <color name="t1.3">#3C3633</color>
+    <!--     t2 COLORS                        -->
+    <color name="t2.1">#294B29</color>
+    <color name="t2.2">#DBE7C9</color>
+    <color name="t2.3">#789461</color>
+    <color name="t2.4">#F8F4E1</color>
+    <color name="t2.5">#74512D</color>
+</resources>

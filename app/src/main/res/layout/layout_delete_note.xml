@@ -1,0 +1,83 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDeleteNoteContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/custom_item_bg_t0"
+    android:paddingStart="20dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="20dp">
+
+    <ImageView
+        android:id="@+id/imgDel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_del"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2.5dp"
+        android:includeFontPadding="false"
+        android:text="Delete Note"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgDel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msgDel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text="Are you sure you want to delete this note?"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintTop_toBottomOf="@id/txtDel" />
+
+    <TextView
+        android:id="@+id/txtCDel"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="delete note"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/msgDel" />
+
+    <TextView
+        android:id="@+id/txtCancel"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Cancel"
+        android:textAllCaps="true"
+        android:textColor="@color/orange"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/txtCDel"
+        app:layout_constraintTop_toBottomOf="@id/msgDel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

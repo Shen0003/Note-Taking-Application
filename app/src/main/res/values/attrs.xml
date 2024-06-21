@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="customBtnBackground" format="reference"/>
+    <attr name="customItemBackground" format="reference"/>
+    <attr name="customTxtColor" format="reference"/>
+    <attr name="headerBackground" format="reference"/>
+    <attr name="titleBackground" format="reference"/>
+    <attr name="contextBackground" format="reference"/>
+    <attr name="lineColor" format="reference"/>
+    <attr name="customLineMarginTop" format="dimension"/>
+<!--    Custom Icon (Main Activity    -->
+    <attr name="customIcon" format="reference"/>
+    <attr name="customIconHeight" format="dimension"/>
+    <attr name="customIconWidth" format="dimension"/>
+    <attr name="customIconScaleX" format="float"/>
+    <attr name="customIconScaleY" format="float"/>
+    <attr name="customIconPaddingBottom" format="dimension"/>
+    <attr name="customIconPaddingTop" format="dimension"/>
+    <attr name="customIconPaddingLeft" format="dimension"/>
+    <attr name="customIconPaddingRight" format="dimension"/>
+<!--    Custom Add Btn (Main Activity)    -->
+    <attr name="customBtnIcon" format="reference"/>
+    <attr name="customBtnHeight" format="dimension"/>
+    <attr name="customBtnWidth" format="dimension"/>
+    <attr name="customBtnPaddingTop" format="dimension"/>
+    <attr name="customBtnPaddingBottom" format="dimension"/>
+    <attr name="customBtnPaddingLeft" format="dimension"/>
+    <attr name="customBtnPaddingRight" format="dimension"/>
+<!--    Res/ Add Btn (Add/Res Activity)             -->
+    <attr name="customRBtnHeight" format="dimension"/>
+    <attr name="customRBtnWidth" format="dimension"/>
+    <attr name="customRBtnPaddingTop" format="dimension"/>
+    <attr name="customRBtnMarginTop" format="dimension"/>
+    <attr name="customABtnMargintop" format="dimension"/>
+<!--    Custom Context                      -->
+    <attr name="customContextHeight" format="dimension"/>
+
+</resources>

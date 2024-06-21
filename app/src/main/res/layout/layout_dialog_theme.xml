@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutThemeDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/custom_item_bg_t0"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_restart"
+        android:id="@+id/imgDel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtDel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="Restart App"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgDel"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2.5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msgDel"
+        android:text="Restart the app to apply the selected theme."
+        android:textColor="@color/white"
+        android:includeFontPadding="false"
+        android:gravity="center_vertical"
+        android:textSize="13sp"
+        app:layout_constraintTop_toBottomOf="@id/txtDel"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCRestart"
+        android:text="OKAY"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/msgDel"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCancelRestart"
+        android:text="Cancel"
+        android:textAllCaps="true"
+        android:textColor="@color/orange"
+        android:includeFontPadding="false"
+        app:layout_constraintEnd_toStartOf="@id/txtCRestart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/msgDel"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

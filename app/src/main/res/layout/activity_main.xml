@@ -1,0 +1,111 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="?attr/headerBackground"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/line1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8">
+        <!--  Your existing ImageView with fixed size  -->
+        <ImageView
+            android:id="@+id/noteIcon"
+            android:layout_width="?attr/customIconWidth"
+            android:layout_height="?attr/customIconHeight"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:paddingLeft="?attr/customIconPaddingLeft"
+            android:paddingBottom="?attr/customIconPaddingBottom"
+            android:scaleType="fitStart"
+            android:scaleX="?attr/customIconScaleX"
+            android:scaleY="?attr/customIconScaleY"
+            android:src="?attr/customIcon" />
+
+        <ImageView
+            android:id="@+id/hIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:paddingBottom="3dp"
+            android:src="@drawable/ic_how" />
+        <!--  Your existing LinearLayout  -->
+        <LinearLayout
+            android:id="@+id/llayout6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.25"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+            <!--  Your existing ImageViews with fixed size  -->
+            <ImageView
+                android:id="@+id/rbinIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="2dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_rbin" />
+
+            <ImageView
+                android:id="@+id/tIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_theme" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:dividerColor="?attr/lineColor"
+        app:layout_constraintBottom_toTopOf="@+id/notesRecView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llayout5" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecView"
+        android:layout_width="match_parent"
+        android:layout_height="439dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainbtnAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line1" />
+
+    <ImageButton
+        android:id="@+id/mainbtnAdd"
+        android:layout_width="?attr/customBtnWidth"
+        android:layout_height="?attr/customBtnHeight"
+        android:layout_below="@+id/notesRecView"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/customBtnBackground"
+        android:src="?attr/customBtnIcon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

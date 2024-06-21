@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--  Base application theme.  -->
+    <style name="t0_theme" parent="Theme.Material3.Dark.NoActionBar">
+        <!--  Customize your light theme here.  -->
+        <!--  <item name="colorPrimary">@color/my_light_primary</item>  -->
+        <item name="android:windowBackground">@color/black</item>
+        <item name="headerBackground">@color/black</item>
+        <item name="customBtnBackground">@drawable/custom_btn_t0</item>
+        <item name="customItemBackground">@drawable/custom_item_bg_t0</item>
+        <item name="customTxtColor">@color/white</item>
+        <item name="lineColor">@color/white</item>
+        <item name="customLineMarginTop">100dp</item>
+        <!--     Button (Main Activity)         -->
+        <item name="customBtnIcon">@drawable/ic_add</item>
+        <item name="customBtnHeight">50dp</item>
+        <item name="customBtnWidth">300dp</item>
+        <!--     Icon (Main Activity)         -->
+        <item name="customIcon">@drawable/note_icon</item>
+        <item name="customIconWidth">0dp</item>
+        <item name="customIconHeight">100dp</item>
+        <item name="customIconScaleX">1</item>
+        <item name="customIconScaleY">1</item>
+        <item name="customIconPaddingBottom">0dp</item>
+        <item name="customIconPaddingTop">0dp</item>
+        <item name="customIconPaddingLeft">0dp</item>
+        <item name="customIconPaddingRight">0dp</item>
+        <!--     Title (AddNote, ResNote Activity)         -->
+        <item name="titleBackground">@drawable/custom_item_bg_t0</item>
+        <item name="contextBackground">@drawable/custom_item_bg_t0</item>
+        <!--     Res/Add Btn (Add/Res Activity)                   -->
+        <item name="customRBtnWidth">103dp</item>
+        <item name="customRBtnHeight">50dp</item>
+        <item name="customRBtnPaddingTop">0dp</item>
+        <item name="customRBtnMarginTop">20dp</item>
+        <item name="customABtnMargintop">20dp</item>
+        <!--     Custom Context                           -->
+        <item name="customContextHeight">383dp</item>
+    </style>
+
+
+    <style name="t1_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/t1.1</item>
+        <item name="headerBackground">@color/t1.1</item>
+        <item name="customBtnBackground">@drawable/custom_btn_t1</item>
+        <item name="customItemBackground">@drawable/custom_item_bg_t1</item>
+        <item name="customTxtColor">@color/t1.3</item>
+        <item name="lineColor">@color/white</item>
+        <item name="customLineMarginTop">100dp</item>
+        <!--     Button (Main Activity)         -->
+        <item name="customBtnIcon">@drawable/ic_add</item>
+        <item name="customBtnHeight">50dp</item>
+        <item name="customBtnWidth">300dp</item>
+        <!--     Icon (Main Activity)         -->
+        <item name="customIcon">@drawable/theme_icon_t1</item>
+        <item name="customIconWidth">0dp</item>
+        <item name="customIconHeight">100dp</item>
+        <item name="customIconScaleX">0.8</item>
+        <item name="customIconScaleY">0.8</item>
+        <item name="customIconPaddingBottom">0dp</item>
+        <item name="customIconPaddingTop">0dp</item>
+        <item name="customIconPaddingLeft">0dp</item>
+        <item name="customIconPaddingRight">0dp</item>
+        <!--     Title (AddNote, ResNote Activity)         -->
+        <item name="titleBackground">@drawable/custom_item_bg_t1</item>
+        <item name="contextBackground">@drawable/custom_item_bg_t1</item>
+        <!--     Add/Res Btn (Add/Res Activity)                   -->
+        <item name="customRBtnWidth">103dp</item>
+        <item name="customRBtnHeight">50dp</item>
+        <item name="customRBtnPaddingTop">0dp</item>
+        <item name="customRBtnMarginTop">20dp</item>
+        <item name="customABtnMargintop">20dp</item>
+        <!--     Custom Context                           -->
+        <item name="customContextHeight">383dp</item>
+    </style>
+    <style name="t2_theme" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:windowBackground">@color/t2.5</item>
+        <item name="headerBackground">@color/t2.5</item>
+        <item name="customBtnBackground">@drawable/custom_btn_t2</item>
+        <item name="customItemBackground">@drawable/custom_item_bg_t2</item>
+        <item name="customTxtColor">@color/white</item>
+        <item name="lineColor">@color/t2.4</item>
+        <item name="customLineMarginTop">110dp</item>
+        <!--     Button (Main Activity)         -->
+        <item name="customBtnIcon">@drawable/custom_add_2</item>
+        <item name="customBtnHeight">80dp</item>
+        <item name="customBtnWidth">100dp</item>
+        <!--     Icon (Main Activity)         -->
+        <item name="customIcon">@drawable/cat</item>
+        <item name="customIconWidth">0dp</item>
+        <item name="customIconHeight">100dp</item>
+        <item name="customIconScaleX">2.5</item>
+        <item name="customIconScaleY">2.5</item>
+        <item name="customIconPaddingBottom">10dp</item>
+        <item name="customIconPaddingTop">0dp</item>
+        <item name="customIconPaddingLeft">30dp</item>
+        <item name="customIconPaddingRight">0dp</item>
+        <!--     Title (AddNote, ResNote Activity)         -->
+        <item name="titleBackground">@drawable/custom_item_bg_t2</item>
+        <item name="contextBackground">@drawable/custom_context_bg_t2</item>
+        <!--     Add/Res Btn (Add/Res Activity)                   -->
+        <item name="customRBtnWidth">103dp</item>
+        <item name="customRBtnHeight">50dp</item>
+        <item name="customRBtnPaddingTop">12dp</item>
+        <item name="customRBtnMarginTop">0dp</item>
+        <item name="customABtnMargintop">20dp</item>
+        <!--     Custom Context                           -->
+        <item name="customContextHeight">350dp</item>
+    </style>
+</resources>
