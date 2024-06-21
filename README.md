@@ -51,7 +51,20 @@
    <b>- Theme Selection:</b> Choose from the different themes to personalize the app's appearance, more to update soon.
    <br>
    <img src = "https://github.com/Shen0003/Note-Taking-Application/assets/173021017/6852708e-3289-4a60-884d-6591d1ed0bbf"/>  
+   <br>
 </p>
+
+<br>
+
+## Screenshot of the app on Google Play Store
+![1 1](https://github.com/Shen0003/Note-Taking-Application/assets/173021017/f5fc5771-f57c-414c-84f2-669d579c6dc2)![2 1](https://github.com/Shen0003/Note-Taking-Application/assets/173021017/5b41a361-3c7d-4b58-805f-234e5a8ca852)![3 1](https://github.com/Shen0003/Note-Taking-Application/assets/173021017/0387776a-4b69-4c53-9416-06fc5b536ab7)![4 1](https://github.com/Shen0003/Note-Taking-Application/assets/173021017/5d54ead1-1579-4e9e-8e49-850b93d85d49)![5 1](https://github.com/Shen0003/Note-Taking-Application/assets/173021017/bc9ac16d-e8f4-4959-be6d-3188b8b98e3d)![6 1](https://github.com/Shen0003/Note-Taking-Application/assets/173021017/af75a8b9-0e76-4580-9b6f-d07a17db15da)![7 1](https://github.com/Shen0003/Note-Taking-Application/assets/173021017/164db882-77f8-44b8-9cf1-c117e9995fd2)
+ 
+
+
+
+
+
+
 
 
 # That's All, Thanks for your time! ദ്ദി( • ᴗ - ) ✧
